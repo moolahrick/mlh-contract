@@ -4,7 +4,7 @@
 
 
 // OpenZeppelin Contracts (last updated v5.0.0) (utils/Nonces.sol)
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 /**
  * @dev Provides tracking nonces for addresses. Nonces will only increment.
@@ -54,7 +54,7 @@ abstract contract Nonces {
 
 // OpenZeppelin Contracts (last updated v5.0.0) (interfaces/IERC5267.sol)
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 interface IERC5267 {
     /**
@@ -86,7 +86,7 @@ interface IERC5267 {
 // OpenZeppelin Contracts (last updated v5.0.0) (utils/StorageSlot.sol)
 // This file was procedurally generated from scripts/generate/templates/StorageSlot.js.
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 /**
  * @dev Library for reading and writing primitive types to specific storage slots.
@@ -223,7 +223,7 @@ library StorageSlot {
 
 // OpenZeppelin Contracts (last updated v5.0.0) (utils/ShortStrings.sol)
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 
 // | string  | 0xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA   |
@@ -348,7 +348,7 @@ library ShortStrings {
 
 // OpenZeppelin Contracts (last updated v5.0.0) (utils/math/SignedMath.sol)
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 /**
  * @dev Standard signed math utilities missing in the Solidity language.
@@ -394,7 +394,7 @@ library SignedMath {
 
 // OpenZeppelin Contracts (last updated v5.0.0) (utils/math/Math.sol)
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 /**
  * @dev Standard math utilities missing in the Solidity language.
@@ -812,7 +812,7 @@ library Math {
 
 // OpenZeppelin Contracts (last updated v5.0.0) (utils/Strings.sol)
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 
 
@@ -908,7 +908,7 @@ library Strings {
 
 // OpenZeppelin Contracts (last updated v5.0.0) (utils/cryptography/MessageHashUtils.sol)
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 
 /**
@@ -996,7 +996,7 @@ library MessageHashUtils {
 
 // OpenZeppelin Contracts (last updated v5.0.0) (utils/cryptography/EIP712.sol)
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 
 
@@ -1158,7 +1158,7 @@ abstract contract EIP712 is IERC5267 {
 
 // OpenZeppelin Contracts (last updated v5.0.0) (utils/cryptography/ECDSA.sol)
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 /**
  * @dev Elliptic Curve Digital Signature Algorithm (ECDSA) operations.
@@ -1335,7 +1335,7 @@ library ECDSA {
 
 // OpenZeppelin Contracts (last updated v5.0.0) (token/ERC20/extensions/IERC20Permit.sol)
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 /**
  * @dev Interface of the ERC20 Permit extension allowing approvals to be made via signatures, as defined in
@@ -1427,7 +1427,7 @@ interface IERC20Permit {
 
 
 // OpenZeppelin Contracts (last updated v5.0.0) (interfaces/draft-IERC6093.sol)
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 /**
  * @dev Standard ERC20 Errors
@@ -1592,7 +1592,7 @@ interface IERC1155Errors {
 
 // OpenZeppelin Contracts (last updated v5.0.0) (utils/Context.sol)
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 /**
  * @dev Provides information about the current execution context, including the
@@ -1619,7 +1619,7 @@ abstract contract Context {
 
 // OpenZeppelin Contracts (last updated v5.0.0) (token/ERC20/IERC20.sol)
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 /**
  * @dev Interface of the ERC20 standard as defined in the EIP.
@@ -1701,7 +1701,7 @@ interface IERC20 {
 
 // OpenZeppelin Contracts (last updated v5.0.0) (token/ERC20/extensions/IERC20Metadata.sol)
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 
 /**
@@ -1729,7 +1729,7 @@ interface IERC20Metadata is IERC20 {
 
 // OpenZeppelin Contracts (last updated v5.0.0) (token/ERC20/ERC20.sol)
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 
 
@@ -2047,7 +2047,7 @@ abstract contract ERC20 is Context, IERC20, IERC20Metadata, IERC20Errors {
 
 // OpenZeppelin Contracts (last updated v5.0.0) (token/ERC20/extensions/ERC20Permit.sol)
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 
 
@@ -2132,7 +2132,7 @@ abstract contract ERC20Permit is ERC20, IERC20Permit, EIP712, Nonces {
 
 // OpenZeppelin Contracts (last updated v5.0.0) (token/ERC20/extensions/ERC20Burnable.sol)
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 
 
@@ -2171,7 +2171,7 @@ abstract contract ERC20Burnable is Context, ERC20 {
 // File: moolahverse.sol
 
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 
 
